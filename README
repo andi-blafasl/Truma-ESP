@@ -1,1 +1,15 @@
 https://schleeh.de/2025/01/24/schritt-fuer-schritt-truma-heizung-mit-esphome-einrichten/
+
+https://learn.microsoft.com/en-us/windows/wsl/connect-usb
+
+in PowerShell/CMD
+```
+usbipd list
+usbipd bind --busid 4-4
+usbipd attach --wsl --busid <busid>
+usbipd detach --busid <busid>
+```
+in Linux
+```
+lsusb
+```
